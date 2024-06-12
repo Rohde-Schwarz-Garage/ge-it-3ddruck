@@ -1,0 +1,58 @@
+{
+    "filament_cooling_final_speed": [
+        "2"
+    ],
+    "filament_cooling_initial_speed": [
+        "3"
+    ],
+    "filament_cooling_moves": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_load_time": [
+        "15"
+    ],
+    "filament_loading_speed": [
+        "14"
+    ],
+    "filament_loading_speed_start": [
+        "19"
+    ],
+    "filament_max_volumetric_speed": [
+        "10"
+    ],
+    "filament_ramming_parameters": [
+        "130 120 2.25806 2.45161 2.74194 3.06452 3.45161 3.90323 4.35484 4.83871 5.29032 5.54839| 0.05 2.2129 0.45 2.54194 0.95 3.21936 1.45 4.10645 1.95 5.05484 2.45 5.6129 2.95 7.6 3.45 7.6 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_settings_id": [
+        "Prusa Generic PLA MMU"
+    ],
+    "filament_unload_time": [
+        "12"
+    ],
+    "filament_unloading_speed": [
+        "20"
+    ],
+    "from": "User",
+    "full_fan_speed_layer": [
+        "4"
+    ],
+    "inherits": "Prusa Generic PLA",
+    "is_custom_defined": "0",
+    "name": "Prusa Generic PLA MMU",
+    "nozzle_temperature": [
+        "205"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "slow_down_min_speed": [
+        "15"
+    ],
+    "version": "2.0.2.0"
+}

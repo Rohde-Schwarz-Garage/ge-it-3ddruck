@@ -1,0 +1,76 @@
+{
+    "before_layer_change_gcode": ";BEFORE_LAYER_CHANGE\n;[layer_z]\n\n",
+    "change_filament_gcode": "M600\nG1 E0.4 F1500 ; prime after color change",
+    "from": "User",
+    "inherits": "MyMarlin 0.4 nozzle",
+    "is_custom_defined": "0",
+    "layer_change_gcode": ";AFTER_LAYER_CHANGE\n;G92 E0   ;zero the extruded length again\n;[layer_z]",
+    "machine_end_gcode": "M104 S0 ; turn off temperature\nM140 S0 ; turn off heatbed\nM107    ; turn off fan\nM6013 S0  ; turn off chamber\n{if max_layer_z < max_print_height}G1 Z{z_offset+min(max_layer_z+30, max_print_height)}{endif} ; Move print head up\nG1 X398 Y298 F3000 ; go to park position\nM84 X Y E ; disable motors\nG90                         ;absolute positioning\nM117 Print finished.",
+    "machine_max_acceleration_extruding": [
+        "1250"
+    ],
+    "machine_max_acceleration_retracting": [
+        "1250"
+    ],
+    "machine_max_acceleration_x": [
+        "1500"
+    ],
+    "machine_max_acceleration_y": [
+        "1500"
+    ],
+    "machine_max_acceleration_z": [
+        "200"
+    ],
+    "machine_max_jerk_e": [
+        "4.5"
+    ],
+    "machine_max_jerk_x": [
+        "10"
+    ],
+    "machine_max_jerk_y": [
+        "10"
+    ],
+    "machine_max_speed_x": [
+        "200"
+    ],
+    "machine_max_speed_y": [
+        "200"
+    ],
+    "machine_max_speed_z": [
+        "25"
+    ],
+    "machine_pause_gcode": "M0",
+    "machine_start_gcode": "G21 ; set units to millimeters\nG90 ; use absolute coordinates\nM82 ; use absolute distances for extrusion\nG92 E0 ; zero extruder\nM107 ; turn off fan\n\nM301 E P19.56 I2.08 D46.07 ; set PID Extruder1\nM304 P132.91 I11.48 D372.91 ; set PID Bed\n\nG28 X0 Y0                ;move X/Y to min endstops\nG28 Z0                   ;move Z to min endstops\n\nG0 F4200 X0 Y2\n\nM190 S{bed_temperature_initial_layer[current_extruder]} ; set bed temperature and wait for it to be reached\nM6013 S{overall_chamber_temperature}                ;set chamber temperature\nM605 S1                ;set print mode\nM104 S{nozzle_temperature_initial_layer[current_extruder]} ; set temperature\nM109 S{nozzle_temperature_initial_layer[current_extruder]} ; set temperature and wait for it to be reached\n\nM900 W0.6 H{layer_height} D1.75  ;set linear advance ratio\n\n;Add Clear Nozzle\nG92 E0                   ;zero the extruded length\nM83                      ;set E value is relative \nG0 F4200 X0 Y2 \n\nM420 S ;turn bed levelling on\nT1 F400                  ;activate extruder NO.1 \nG0 F1500 X40 Y2 Z0.4           ;move a bit while down the Z \nM221 S200             ;set flow is 200% \nG1 F200 X60 E+8          ;extrude amont filament to clean the hotend \nM221 S100             ;reset flow is 100% \n\nM82                      ;set E value is absolute\nG92 E0                   ;zero the extruded length again\n\n;Add End\nG0 Z1 F4200           ;move the platform down 15mm\n;Put printing message on LCD screen\nM117 Printing...",
+    "max_layer_height": [
+        "0.5"
+    ],
+    "min_layer_height": [
+        "0.1"
+    ],
+    "name": "CreatBot F430 0.6mm",
+    "nozzle_diameter": [
+        "0.6"
+    ],
+    "nozzle_type": "hardened_steel",
+    "print_host": "http://10.77.77.31",
+    "printable_area": [
+        "0x0",
+        "400x0",
+        "400x300",
+        "0x300"
+    ],
+    "printable_height": "300",
+    "printer_settings_id": "CreatBot F430 0.6mm",
+    "printhost_apikey": "7E81BCF624384B83BCE1DB283C771632",
+    "retract_length_toolchange": [
+        "12"
+    ],
+    "retraction_length": [
+        "0.8"
+    ],
+    "retraction_speed": [
+        "35"
+    ],
+    "use_relative_e_distances": "0",
+    "version": "1.6.1.0"
+}
