@@ -1,0 +1,67 @@
+{
+    "fan_max_speed": [
+        "50"
+    ],
+    "fan_min_speed": [
+        "30"
+    ],
+    "filament_cooling_final_speed": [
+        "1"
+    ],
+    "filament_cooling_initial_speed": [
+        "2"
+    ],
+    "filament_cooling_moves": [
+        "1"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_load_time": [
+        "15"
+    ],
+    "filament_loading_speed": [
+        "14"
+    ],
+    "filament_loading_speed_start": [
+        "19"
+    ],
+    "filament_max_volumetric_speed": [
+        "7"
+    ],
+    "filament_ramming_parameters": [
+        "120 140 4.77419 4.93548 5.09677 5.19355 5.25806 5.35484 5.51613 5.77419 6.09677 6.45161 6.80645 7.06452 7.19355 7.22581| 0.05 4.72903 0.45 4.99355 0.95 5.21936 1.45 5.39677 1.95 5.89355 2.45 6.64516 2.95 7.2129 3.45 7.2129 3.95 7.6 4.45 7.6 4.95 7.6"
+    ],
+    "filament_retraction_length": [
+        "1"
+    ],
+    "filament_settings_id": [
+        "Prusa Generic PETG MMU"
+    ],
+    "filament_unload_time": [
+        "12"
+    ],
+    "filament_unloading_speed": [
+        "20"
+    ],
+    "filament_unloading_speed_start": [
+        "120"
+    ],
+    "filament_z_hop": [
+        "0.2"
+    ],
+    "from": "User",
+    "inherits": "Prusa Generic PETG",
+    "is_custom_defined": "0",
+    "name": "Prusa Generic PETG MMU",
+    "overhang_fan_speed": [
+        "50"
+    ],
+    "slow_down_layer_time": [
+        "15"
+    ],
+    "slow_down_min_speed": [
+        "15"
+    ],
+    "version": "2.0.2.0"
+}

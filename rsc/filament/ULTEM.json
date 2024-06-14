@@ -1,0 +1,61 @@
+{
+    "chamber_temperature": [
+        "75"
+    ],
+    "fan_max_speed": [
+        "40"
+    ],
+    "fan_min_speed": [
+        "0"
+    ],
+    "filament_cost": [
+        "270"
+    ],
+    "filament_flow_ratio": [
+        "1"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_settings_id": [
+        "ULTEM"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nM900 K18"
+    ],
+    "filament_type": [
+        "PC"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "130"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "130"
+    ],
+    "inherits": "My Generic PETG",
+    "is_custom_defined": "0",
+    "name": "ULTEM",
+    "nozzle_temperature": [
+        "365"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "365"
+    ],
+    "nozzle_temperature_range_high": [
+        "380"
+    ],
+    "nozzle_temperature_range_low": [
+        "350"
+    ],
+    "reduce_fan_stop_start_freq": [
+        "0"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "temperature_vitrification": [
+        "217"
+    ],
+    "version": "2.0.2.0"
+}
