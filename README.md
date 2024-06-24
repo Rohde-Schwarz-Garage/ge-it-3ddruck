@@ -1,7 +1,7 @@
 # Sammlung Konfigurationen 3D Drucker
 ## Import Konfiguration
 
-Als Voraussetzung wird bereits eine fertige Installation von [OrcaSLicer 2.1](https://github.com/SoftFever/OrcaSlicer/releases/download/v2.1.0-beta/OrcaSlicer_Windows_Installer_V2.1.0-beta.exe) benötigt.
+Als Voraussetzung wird bereits eine fertige Installation von [OrcaSLicer 2.1](https://github.com/SoftFever/OrcaSlicer/releases/tag/v2.1.0) benötigt.
 
 1. Schließe alle offenen Instanzen von OrcaSLicer
 2. Drücke zeitgleich `WIN`+ `R`
