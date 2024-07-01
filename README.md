@@ -7,7 +7,7 @@ Als Voraussetzung wird bereits eine fertige Installation von [OrcaSlicer 2.1](ht
 2. Drücke zeitgleich `WIN`+ `R`
 3. Gib `appdata` ein und bestätige dies
 4. Navigiere zu `\Roaming\OrcaSlicer\user\default`
-5. Ersetze die vorhandenen Ordner mit [diesen](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fge-it-3ddruck%2Frsc) Ordnern
+5. Ersetze die vorhandenen Ordner mit [diesen](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2FRohde-Schwarz-Garage%2Fge-it-3ddruck%2Ftree%2Fmain%2Frsc) Ordnern
 6. Schließe den Explorer und öffne OrcaSlicer
 
 
