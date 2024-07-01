@@ -1,0 +1,31 @@
+{
+    "chamber_temperature": [
+        "25"
+    ],
+    "filament_max_volumetric_speed": [
+        "14"
+    ],
+    "filament_retraction_length": [
+        "0.4"
+    ],
+    "filament_settings_id": [
+        "PLA"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nM900 K8"
+    ],
+    "from": "User",
+    "inherits": "My Generic PLA",
+    "is_custom_defined": "0",
+    "name": "PLA",
+    "nozzle_temperature": [
+        "215"
+    ],
+    "nozzle_temperature_initial_layer": [
+        "215"
+    ],
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "version": "2.0.2.0"
+}

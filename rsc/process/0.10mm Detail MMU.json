@@ -1,0 +1,10 @@
+{
+    "from": "User",
+    "inherits": "0.10mm Detail @MK3S 0.4",
+    "is_custom_defined": "0",
+    "name": "0.10mm Detail MMU",
+    "print_settings_id": "0.10mm Detail MMU",
+    "sparse_infill_density": "25%",
+    "sparse_infill_pattern": "cubic",
+    "version": "2.1.0.0"
+}

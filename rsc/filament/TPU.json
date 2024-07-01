@@ -1,0 +1,37 @@
+{
+    "chamber_temperature": [
+        "25"
+    ],
+    "filament_cost": [
+        "39"
+    ],
+    "filament_flow_ratio": [
+        "1.05"
+    ],
+    "filament_max_volumetric_speed": [
+        "5.5"
+    ],
+    "filament_retraction_length": [
+        "0"
+    ],
+    "filament_settings_id": [
+        "TPU"
+    ],
+    "filament_start_gcode": [
+        "; filament start gcode\nM900 K18"
+    ],
+    "from": "User",
+    "hot_plate_temp": [
+        "30"
+    ],
+    "hot_plate_temp_initial_layer": [
+        "30"
+    ],
+    "inherits": "My Generic TPU",
+    "is_custom_defined": "0",
+    "name": "TPU",
+    "slow_down_layer_time": [
+        "10"
+    ],
+    "version": "2.0.2.0"
+}
